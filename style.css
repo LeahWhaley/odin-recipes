@@ -17,6 +17,7 @@ body {
 .recipes {
     font-size: 24px;
     color: teal;
+    text-align: center;
 }
 
 img {
@@ -41,3 +42,13 @@ li::marker {
     font-size: 24px;
 }
 
+.recipe {
+    display: inline-block;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    border: 3px;
+    border-color: black;
+    border-style: dotted;
+    padding: 10px;
+    background-color: #be62da;
+}
